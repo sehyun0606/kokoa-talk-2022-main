@@ -1,0 +1,39 @@
+.nav{
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
+}
+.nav__ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__a{
+    color: inherit;
+    position: relative;
+}
+.nav__notification{
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+.nav__notice{
+    width: 10px;
+    height: 10px;
+    background-color: tomato;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+}
