@@ -1,0 +1,48 @@
+.setting-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+.setting-header span{
+    font-weight: 600;
+    font-size: 30px;
+}
+.setting-header a:hover{
+    color: var(--yello);
+}
+.setting-class{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: var(--main-border) ;
+    padding: 20px;
+    align-items: center;
+}
+
+.setting-icon{
+    margin-right: 20px;
+}
+.setting-class:hover{
+    color: var(--yello);
+}
+.setting-info{
+    font-size: 20px;
+}
+.setting-screen{
+    margin-right: 30px;
+}
+.setting-class__info{
+    color: var(--gray);
+    margin-left: 160px;
+}
+.setting-class__notice{
+    background-color: tomato;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 7px;
+}

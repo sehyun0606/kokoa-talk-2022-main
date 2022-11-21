@@ -1,6 +1,6 @@
 .nav{
     background-color: #f9f9fa;
-    padding: 20px 50px;
+    padding: 5px 50px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     position: fixed;
     box-sizing: border-box;
@@ -16,8 +16,8 @@
     position: relative;
 }
 .nav__notification{
-    left: 30px;
-    bottom: 20px;
+    left: 25px;
+    bottom: 16px;
     position: absolute;
 }
 .nav__notice{
@@ -26,5 +26,11 @@
     background-color: tomato;
     border-radius: 50%;
     position: absolute;
-    left: 40px;
+    left: 30px;
+}
+.nav__btn i{
+    font-size: 40px;
+}
+.nav__btn i:hover{
+    color: var(--yello);
 }
