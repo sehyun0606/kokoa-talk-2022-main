@@ -1,0 +1,124 @@
+.chat-body{
+    background-color: #B3C8DB;
+}
+.chat-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 20px 20px;
+}
+.chat-header span{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.chat-header__icon .fa-magnifying-glass{
+    margin-right: 20px;
+}
+.chat-screen{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.chat-top-screen{
+    height: 350px;
+}
+.chat-date{
+    display: flex;
+    justify-content: center;
+}
+.chat-date__info{
+    width: 220px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.chat-date__info span{
+    color: white;
+    opacity: 60%;
+}
+.chat-info{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.chat-info__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+.chat-info__component{
+    margin-left: 15px;
+}
+.chat-info__friend-name{
+    color: var(--gray);
+}
+.chat-info__friend-comment{
+    margin-top: 10px;
+    width: 280px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.chat-info__time{
+    margin: 40px 0 0 6px;
+    color: var(--gray);
+}
+.my-chat{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+.my-chat__time{
+    color: var(--gray);
+    margin-right: 6px;
+}
+.my-chat__comment{
+    background-color: var(--yello);
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.keybord{
+    margin: 0 -30px;
+}
+.text-input{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+.text-input__input{
+    display: flex;
+    width: 86%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--gray);
+    padding: 5px;
+    border-radius: 20px;
+}
+.text-input__input-i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.send{
+    margin-left: 10px;
+    background-color: var(--yello);
+    border: none;
+    height: 23px;
+    border-radius: 50%;
+}
