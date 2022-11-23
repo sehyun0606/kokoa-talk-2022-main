@@ -8,4 +8,16 @@
     align-items: center;
     color: white;
     font-weight: 600;
+    animation: badgeAnimation 2s ease-in-out infinite;
+}
+@keyframes badgeAnimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-10px) rotateY(180deg);
+    }
+    100%{
+        transform: none;
+    }
 }

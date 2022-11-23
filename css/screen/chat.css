@@ -19,9 +19,21 @@
     justify-content: space-between;
     flex-direction: column;
 }
+@keyframes fadeIn{
+    from{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
 .chat-top-screen{
     height: 350px;
+    animation: fadeIn 1s ease-in-out;
 }
+
 .chat-date{
     display: flex;
     justify-content: center;
@@ -88,7 +100,7 @@
     align-items: center;
     border-radius: 10px;
 }
-.keybord{
+.chat-bottom-screen{
     margin: 0 -30px;
 }
 .text-input{

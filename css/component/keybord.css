@@ -1,0 +1,79 @@
+.keybord{
+    background-color: lightgray;
+    width: 500px;
+    height: 280px;
+}
+.keybord__first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keybord__btn{
+    background-color: white;
+    width: 37px;
+    height: 47px;
+    margin: 6px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.keybord__second-row{
+    display: flex;
+    justify-content: center;
+}
+.keybord__third-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shift{
+    width: 40px;
+    height: 47px;
+    border: none;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.backspace{
+    width: 40px;
+    height: 47px;
+    border: none;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.keybord__fourth-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num-change, .lang-change{
+    width: 35px;
+    height: 47px;
+    margin: 6px;
+    border: none;
+    border-radius: 5px;
+}
+.mic{
+    width: 35px;
+    height: 47px;
+    margin: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+.space{
+    width: 200px;
+    height: 47px;
+    margin: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+.return{
+    width: 100px;
+    height: 47px;
+    border: none;
+    border-radius: 5px;
+}
+.keybord__btn:active, .backspace:active, .shift:active, .num-change:active, .lang-change:active, .mic:active, .space:active, .return:active{
+    background-color: var(--gray)
+}
